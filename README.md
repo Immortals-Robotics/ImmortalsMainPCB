@@ -17,3 +17,10 @@ The main features are:
 
 From an electrical point of view, the PCB is designed in a **multi-layer** fashion (**4-layer**). This is because of the FPGA requirements, and the very high current drawn by the BLDC motors (230 amperes!).
 ![PCB](/Images/main_pcb.jpg)
+
+There are **6** voltage rails needed by the components, including: **1.2V**, **2.5V**, **3.3V**, **5.0V**, **7.5V** and **14V**.
+The main battery voltage is **14.8V**. The PSU includes a **switching regulator** that converts the battery voltage to **5.0V**. Then 3 LDO regulators are used for providing lower voltages.
+
+One of the four layers of the PCB is used solely for feeding all the the VCCs into the components, and one is just the holy GND!
+
+![PCB](/Images/main_2d.png)
