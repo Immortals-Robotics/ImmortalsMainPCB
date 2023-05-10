@@ -102,6 +102,23 @@
     )
   )
 
+  (sheet (at 180.34 36.83) (size 50.8 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cf228cb6-f574-4df0-9eba-d154373551fd)
+    (property "Sheetname" "Motors" (at 180.34 36.1184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "motors.kicad_sch" (at 180.34 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "main-board"
+        (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708" (page "11"))
+      )
+    )
+  )
+
   (sheet (at 76.2 67.31) (size 43.18 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -119,14 +136,14 @@
     )
   )
 
-  (sheet (at 210.82 68.58) (size 33.02 24.13) (fields_autoplaced)
+  (sheet (at 153.67 83.82) (size 33.02 24.13) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid e46eb433-d2d9-434e-a3d3-b851718a39e1)
-    (property "Sheetname" "Sensors" (at 210.82 67.8684 0)
+    (property "Sheetname" "Sensors" (at 153.67 83.1084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "sensors.kicad_sch" (at 210.82 93.2946 0)
+    (property "Sheetfile" "sensors.kicad_sch" (at 153.67 108.5346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
