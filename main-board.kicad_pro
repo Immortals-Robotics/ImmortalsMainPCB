@@ -232,7 +232,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "error",
@@ -338,6 +338,10 @@
     [
       "72ca2a69-64d2-4325-ac9e-ca976eb5a207",
       "CAN"
+    ],
+    [
+      "6a867d65-34d4-44e3-a5c9-7709cd333049",
+      "Micro"
     ],
     [
       "e46eb433-d2d9-434e-a3d3-b851718a39e1",
