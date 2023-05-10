@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "rpi-cm4")(type "KiCad")(uri "${KIPRJMOD}/libraries/rpi-cm4")(options "")(descr ""))
+  (lib (name "FH12-22S")(type "KiCad")(uri "${KIPRJMOD}/libraries/FH12-22S")(options "")(descr ""))
+  (lib (name "BSC014N04LSIATMA1")(type "KiCad")(uri "${KIPRJMOD}/libraries/BSC014N04LSIATMA1")(options "")(descr ""))
+  (lib (name "74HC154")(type "KiCad")(uri "${KIPRJMOD}/libraries/74HC154")(options "")(descr ""))
+  (lib (name "ICM-42688-P")(type "KiCad")(uri "${KIPRJMOD}/libraries/ICM-42688-P")(options "")(descr ""))
+)

@@ -26,6 +26,6 @@ fp-info-cache
 *.csv
 
 # Custom
-mikona-backups
+main-board-backups
 *.kicad_prl
 output
