@@ -5,4 +5,5 @@
   (lib (name "BSC014N04LSIATMA1")(type "KiCad")(uri "${KIPRJMOD}/libraries/BSC014N04LSIATMA1")(options "")(descr ""))
   (lib (name "74HC154")(type "KiCad")(uri "${KIPRJMOD}/libraries/74HC154")(options "")(descr ""))
   (lib (name "ICM-42688-P")(type "KiCad")(uri "${KIPRJMOD}/libraries/ICM-42688-P")(options "")(descr ""))
+  (lib (name "1054291104")(type "KiCad")(uri "${KIPRJMOD}/libraries/1054291104")(options "")(descr ""))
 )
