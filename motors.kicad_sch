@@ -686,7 +686,6 @@
     )
   )
 
-
   (junction (at 74.93 133.35) (diameter 0) (color 0 0 0 0)
     (uuid 03e76869-8303-4570-b969-68754ff48e59)
   )
@@ -2622,7 +2621,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR0742") (unit 1)
         )
       )
     )
@@ -2655,7 +2654,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR0718") (unit 1)
         )
       )
     )
@@ -2688,7 +2687,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0750") (unit 1)
         )
       )
     )
@@ -2697,7 +2696,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin") (at 262.89 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 184a2deb-1b5f-41f6-9518-075cf9bd0d21)
-    (property "Reference" "J21" (at 261.62 100.33 0)
+    (property "Reference" "J712" (at 261.62 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ENC4" (at 265.43 104.14 0)
@@ -2719,7 +2718,7 @@
     (instances
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J21") (unit 1)
+          (reference "J712") (unit 1)
         )
       )
     )
@@ -2752,7 +2751,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR085") (unit 1)
+          (reference "#PWR0730") (unit 1)
         )
       )
     )
@@ -2761,7 +2760,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin") (at 204.47 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22dd7b6b-e717-4dbf-9fed-1c5361d61dff)
-    (property "Reference" "J15" (at 203.2 66.04 0)
+    (property "Reference" "J705" (at 203.2 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ENC1" (at 207.01 69.85 0)
@@ -2783,7 +2782,7 @@
     (instances
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J15") (unit 1)
+          (reference "J705") (unit 1)
         )
       )
     )
@@ -2816,7 +2815,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR0729") (unit 1)
         )
       )
     )
@@ -2849,7 +2848,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0728") (unit 1)
         )
       )
     )
@@ -2882,7 +2881,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR0708") (unit 1)
         )
       )
     )
@@ -2915,7 +2914,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0725") (unit 1)
         )
       )
     )
@@ -2948,7 +2947,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR0746") (unit 1)
         )
       )
     )
@@ -2990,7 +2989,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J13") (unit 1)
+          (reference "J704") (unit 1)
         )
       )
     )
@@ -3032,7 +3031,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J4") (unit 1)
+          (reference "J702") (unit 1)
         )
       )
     )
@@ -3065,7 +3064,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR0706") (unit 1)
         )
       )
     )
@@ -3074,7 +3073,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin") (at 204.47 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 34c2de7e-6698-4dab-ac64-a1b19949197a)
-    (property "Reference" "J23" (at 203.2 134.62 0)
+    (property "Reference" "J717" (at 203.2 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ENCD" (at 207.01 138.43 0)
@@ -3096,7 +3095,7 @@
     (instances
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J23") (unit 1)
+          (reference "J717") (unit 1)
         )
       )
     )
@@ -3105,7 +3104,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 238.76 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a50bff9-0b5f-41fe-8d46-f47476598ac7)
-    (property "Reference" "J16" (at 237.49 66.04 0)
+    (property "Reference" "J708" (at 237.49 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M2" (at 237.49 88.9 0)
@@ -3131,7 +3130,7 @@
     (instances
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J16") (unit 1)
+          (reference "J708") (unit 1)
         )
       )
     )
@@ -3164,7 +3163,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0714") (unit 1)
         )
       )
     )
@@ -3197,7 +3196,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR0747") (unit 1)
         )
       )
     )
@@ -3230,7 +3229,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR0704") (unit 1)
         )
       )
     )
@@ -3239,7 +3238,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 180.34 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47ffc990-da31-4121-8634-c2460b3239b3)
-    (property "Reference" "J14" (at 179.07 66.04 0)
+    (property "Reference" "J707" (at 179.07 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M1" (at 179.07 88.9 0)
@@ -3265,7 +3264,7 @@
     (instances
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J14") (unit 1)
+          (reference "J707") (unit 1)
         )
       )
     )
@@ -3298,7 +3297,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR0719") (unit 1)
         )
       )
     )
@@ -3331,7 +3330,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR0727") (unit 1)
         )
       )
     )
@@ -3383,7 +3382,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J5") (unit 1)
+          (reference "J709") (unit 1)
         )
       )
     )
@@ -3392,7 +3391,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin") (at 204.47 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 510d1cc8-f51e-4165-94e2-1f4ee9eee51e)
-    (property "Reference" "J19" (at 203.2 100.33 0)
+    (property "Reference" "J711" (at 203.2 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ENC3" (at 207.01 104.14 0)
@@ -3414,7 +3413,7 @@
     (instances
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J19") (unit 1)
+          (reference "J711") (unit 1)
         )
       )
     )
@@ -3447,7 +3446,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR0733") (unit 1)
         )
       )
     )
@@ -3480,7 +3479,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR0713") (unit 1)
         )
       )
     )
@@ -3532,7 +3531,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J8") (unit 1)
+          (reference "J715") (unit 1)
         )
       )
     )
@@ -3574,7 +3573,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J9") (unit 1)
+          (reference "J716") (unit 1)
         )
       )
     )
@@ -3607,7 +3606,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0121") (unit 1)
+          (reference "#PWR0748") (unit 1)
         )
       )
     )
@@ -3616,7 +3615,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 180.34 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 62f85b23-3165-4639-9882-a00fb7d1cb5c)
-    (property "Reference" "J18" (at 179.07 100.33 0)
+    (property "Reference" "J713" (at 179.07 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M3" (at 179.07 123.19 0)
@@ -3642,7 +3641,7 @@
     (instances
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J18") (unit 1)
+          (reference "J713") (unit 1)
         )
       )
     )
@@ -3694,7 +3693,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J10") (unit 1)
+          (reference "J719") (unit 1)
         )
       )
     )
@@ -3727,7 +3726,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0741") (unit 1)
         )
       )
     )
@@ -3760,7 +3759,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR0724") (unit 1)
         )
       )
     )
@@ -3769,7 +3768,7 @@
   (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin") (at 262.89 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 74b5cf96-b706-4c44-8a4a-944a1926f49e)
-    (property "Reference" "J17" (at 261.62 66.04 0)
+    (property "Reference" "J706" (at 261.62 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "ENC2" (at 265.43 69.85 0)
@@ -3791,7 +3790,7 @@
     (instances
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J17") (unit 1)
+          (reference "J706") (unit 1)
         )
       )
     )
@@ -3824,7 +3823,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0745") (unit 1)
         )
       )
     )
@@ -3833,7 +3832,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 238.76 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 76de29ac-29f2-4acd-ba41-a99a78ba2c3d)
-    (property "Reference" "J20" (at 237.49 100.33 0)
+    (property "Reference" "J714" (at 237.49 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M4" (at 237.49 123.19 0)
@@ -3859,7 +3858,7 @@
     (instances
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J20") (unit 1)
+          (reference "J714") (unit 1)
         )
       )
     )
@@ -3868,7 +3867,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x08") (at 180.34 144.78 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 771f0f2a-f186-455e-971d-6a84542dc88b)
-    (property "Reference" "J22" (at 179.07 134.62 0)
+    (property "Reference" "J718" (at 179.07 134.62 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "M1" (at 179.07 157.48 0)
@@ -3894,7 +3893,7 @@
     (instances
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J22") (unit 1)
+          (reference "J718") (unit 1)
         )
       )
     )
@@ -3927,7 +3926,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR0736") (unit 1)
         )
       )
     )
@@ -3960,7 +3959,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR0702") (unit 1)
         )
       )
     )
@@ -3993,7 +3992,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR0740") (unit 1)
         )
       )
     )
@@ -4035,7 +4034,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J6") (unit 1)
+          (reference "J710") (unit 1)
         )
       )
     )
@@ -4068,7 +4067,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR0712") (unit 1)
         )
       )
     )
@@ -4101,7 +4100,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR0711") (unit 1)
         )
       )
     )
@@ -4134,7 +4133,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR0705") (unit 1)
         )
       )
     )
@@ -4167,7 +4166,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR0715") (unit 1)
         )
       )
     )
@@ -4200,7 +4199,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR0703") (unit 1)
         )
       )
     )
@@ -4233,7 +4232,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR0720") (unit 1)
         )
       )
     )
@@ -4266,7 +4265,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR0732") (unit 1)
         )
       )
     )
@@ -4299,7 +4298,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR0738") (unit 1)
         )
       )
     )
@@ -4332,7 +4331,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR0710") (unit 1)
         )
       )
     )
@@ -4365,7 +4364,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR0723") (unit 1)
         )
       )
     )
@@ -4398,7 +4397,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR0734") (unit 1)
         )
       )
     )
@@ -4431,7 +4430,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0749") (unit 1)
         )
       )
     )
@@ -4464,7 +4463,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR0726") (unit 1)
         )
       )
     )
@@ -4506,7 +4505,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J11") (unit 1)
+          (reference "J720") (unit 1)
         )
       )
     )
@@ -4539,7 +4538,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0744") (unit 1)
         )
       )
     )
@@ -4591,7 +4590,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J12") (unit 1)
+          (reference "J703") (unit 1)
         )
       )
     )
@@ -4624,7 +4623,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR0722") (unit 1)
         )
       )
     )
@@ -4657,7 +4656,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0709") (unit 1)
         )
       )
     )
@@ -4690,7 +4689,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0707") (unit 1)
         )
       )
     )
@@ -4723,7 +4722,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR0731") (unit 1)
         )
       )
     )
@@ -4756,7 +4755,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR0739") (unit 1)
         )
       )
     )
@@ -4789,7 +4788,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR0737") (unit 1)
         )
       )
     )
@@ -4841,7 +4840,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "J3") (unit 1)
+          (reference "J701") (unit 1)
         )
       )
     )
@@ -4874,7 +4873,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0716") (unit 1)
         )
       )
     )
@@ -4907,7 +4906,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR0721") (unit 1)
         )
       )
     )
@@ -4940,7 +4939,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR0717") (unit 1)
         )
       )
     )
@@ -4973,7 +4972,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR0735") (unit 1)
         )
       )
     )
@@ -5006,7 +5005,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0743") (unit 1)
         )
       )
     )
@@ -5039,7 +5038,7 @@
       )
       (project "main-board"
         (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/cf228cb6-f574-4df0-9eba-d154373551fd"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR0701") (unit 1)
         )
       )
     )
