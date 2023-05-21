@@ -1723,6 +1723,10 @@
     (stroke (width 0) (type default))
     (uuid 1ae94ad5-5cc4-4c18-bbc3-ef842381724b)
   )
+  (wire (pts (xy 180.34 139.7) (xy 180.34 140.97))
+    (stroke (width 0) (type default))
+    (uuid 1b5b6ad8-f983-4ee3-8fd7-8f3b10fc8308)
+  )
   (wire (pts (xy 64.77 46.99) (xy 64.77 34.29))
     (stroke (width 0) (type default))
     (uuid 1b8b6267-556c-4690-ad8b-e4eab6787899)
@@ -2415,6 +2419,10 @@
     (stroke (width 0) (type default))
     (uuid fa08de2b-20bb-44b4-92e7-aadfd2e623db)
   )
+  (wire (pts (xy 180.34 133.35) (xy 180.34 134.62))
+    (stroke (width 0) (type default))
+    (uuid fd27631b-2c0a-423c-898b-2c2b843a6b6c)
+  )
   (wire (pts (xy 21.59 100.33) (xy 26.67 100.33))
     (stroke (width 0) (type default))
     (uuid fdd232bf-f8a7-4c1b-9f3c-ae8df1ca950b)
@@ -2888,6 +2896,34 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 180.34 133.35 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 0a428927-84d0-47e4-a706-947a4c238e5f)
+    (property "Reference" "#PWR059" (at 180.34 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 180.34 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 180.34 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 180.34 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fa220db7-90c0-4ed2-b162-36ac1f0cc299))
+    (instances
+      (project "main-board"
+        (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/d4025ecd-c2b7-426a-90ae-23d9d1364d9e"
+          (reference "#PWR059") (unit 1)
+        )
+        (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/6a867d65-34d4-44e3-a5c9-7709cd333049"
+          (reference "#PWR0406") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R_Small_US") (at 128.27 54.61 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0f0dca5a-300a-49e0-af30-ef2583c1a140)
@@ -2948,6 +2984,40 @@
       (project "RP2040_minimal"
         (path "/fe216d01-45d7-4b2b-ac5d-8d5d41a286b4"
           (reference "Y1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 180.34 137.16 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 194fb9c2-041d-44c4-9ff1-6c5eb383cd09)
+    (property "Reference" "C515" (at 183.261 135.9916 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "100nF" (at 183.261 138.303 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 180.34 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 180.34 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "RM EMK105 B7104KV-F" (at 180.34 137.16 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a15ea853-fc21-4a1e-942f-e63527197310))
+    (pin "2" (uuid 025348aa-6891-4bae-83ac-5a7f526eb31e))
+    (instances
+      (project "main-board"
+        (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/6a867d65-34d4-44e3-a5c9-7709cd333049"
+          (reference "C515") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/fe216d01-45d7-4b2b-ac5d-8d5d41a286b4"
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -3771,6 +3841,36 @@
       (project "RP2040_minimal"
         (path "/fe216d01-45d7-4b2b-ac5d-8d5d41a286b4"
           (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 180.34 140.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8f30494b-e1ac-4cf0-96d9-3491a4749516)
+    (property "Reference" "#PWR0407" (at 180.34 147.32 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 180.467 145.3642 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 180.34 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 180.34 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9e9d7555-2f5c-4b67-a66d-3ac5a9d8c622))
+    (instances
+      (project "main-board"
+        (path "/5ad67b7d-c56f-4b00-8953-cc84f90f9708/6a867d65-34d4-44e3-a5c9-7709cd333049"
+          (reference "#PWR0407") (unit 1)
+        )
+      )
+      (project "RP2040_minimal"
+        (path "/fe216d01-45d7-4b2b-ac5d-8d5d41a286b4"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
