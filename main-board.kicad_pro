@@ -173,7 +173,9 @@
       ],
       "track_widths": [
         0.0,
+        0.15,
         0.2,
+        0.24,
         0.3,
         0.4,
         0.7,
@@ -411,7 +413,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -434,9 +436,9 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.13,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -521,10 +523,6 @@
     [
       "a004841b-bac3-4d41-b697-5d2e29fa9f3a",
       "Power"
-    ],
-    [
-      "72ca2a69-64d2-4325-ac9e-ca976eb5a207",
-      "CAN"
     ],
     [
       "6a867d65-34d4-44e3-a5c9-7709cd333049",
