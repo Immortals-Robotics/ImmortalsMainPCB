@@ -1340,7 +1340,7 @@
     (property "Datasheet" "~" (at 251.46 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CL21B225KOFNNNE" (at 251.46 116.84 0)
+    (property "MPN" "CC0805KKX7R9BB225" (at 251.46 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 35eff3a4-9e39-4c10-9537-a7eef71b8430))
