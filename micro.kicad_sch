@@ -4387,7 +4387,7 @@
     (property "Datasheet" "~" (at 139.7 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "SML-A12M8TT86N" (at 139.7 118.11 0)
+    (property "MPN" "B1911PG--20D000514U1930" (at 139.7 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid efc595ed-7273-4489-b10e-22aedb791629))
