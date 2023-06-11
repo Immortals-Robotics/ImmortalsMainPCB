@@ -1005,7 +1005,7 @@
     (property "Datasheet" "~" (at 237.49 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "SM04B-SRSS-TB(LF)(SN)" (at 237.49 73.66 0)
+    (property "MPN" "S4B-XH-SM4-TB(LF)(SN)" (at 237.49 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f9b8e747-6d2b-4e8d-af08-8b0514d17ea3))
